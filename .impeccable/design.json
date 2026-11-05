@@ -1,0 +1,512 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-05T05:07:22+00:00",
+  "title": "Design System: Juego de planos",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "primary",
+        "displayName": "Diazo Blue-Violet Ink",
+        "canonical": "#2b2f8f",
+        "tonalRamp": [
+          "#11123d",
+          "#1f2270",
+          "#2b2f8f",
+          "#4f539e",
+          "#7579b6",
+          "#9fa2cd",
+          "#c9cbe4",
+          "#eceef7"
+        ]
+      },
+      "ink-deep": {
+        "role": "primary",
+        "displayName": "Pressed Ink",
+        "canonical": "#1f2270",
+        "tonalRamp": [
+          "#0c0d2e",
+          "#1f2270",
+          "#2b2f8f",
+          "#4f539e",
+          "#7579b6",
+          "#9fa2cd",
+          "#c9cbe4",
+          "#eceef7"
+        ]
+      },
+      "ink-2": {
+        "role": "primary",
+        "displayName": "Faded Ink",
+        "canonical": "#4f539e",
+        "tonalRamp": [
+          "#1f2270",
+          "#2b2f8f",
+          "#4f539e",
+          "#6b6fb0",
+          "#8d90c2",
+          "#adb0d5",
+          "#cfd1e8",
+          "#eeeff7"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Cell Rule",
+        "canonical": "rgba(43, 47, 143, 0.32)",
+        "tonalRamp": [
+          "#2b2f8f",
+          "#4f539e",
+          "#7579b6",
+          "#9a9dc9",
+          "#b4b7d6",
+          "#cbcde3",
+          "#dfe0ee",
+          "#eff0f6"
+        ]
+      },
+      "rule-2": {
+        "role": "neutral",
+        "displayName": "Faint Rule",
+        "canonical": "rgba(43, 47, 143, 0.16)",
+        "tonalRamp": [
+          "#4f539e",
+          "#7579b6",
+          "#9a9dc9",
+          "#b4b7d6",
+          "#cbcde3",
+          "#d8d9ea",
+          "#e6e7f1",
+          "#f2f3f8"
+        ]
+      },
+      "hi": {
+        "role": "secondary",
+        "displayName": "Checker's Highlighter",
+        "canonical": "#ffe14d",
+        "tonalRamp": [
+          "#4d3f00",
+          "#7a6400",
+          "#a88a00",
+          "#d6b000",
+          "#ffd21a",
+          "#ffe14d",
+          "#ffec8f",
+          "#fff7cf"
+        ]
+      },
+      "hi-a": {
+        "role": "secondary",
+        "displayName": "Highlighter Band",
+        "canonical": "rgba(255, 225, 77, 0.9)",
+        "tonalRamp": [
+          "#7a6400",
+          "#a88a00",
+          "#d6b000",
+          "#ffd21a",
+          "#ffe14d",
+          "#ffe873",
+          "#ffef9e",
+          "#fff7cf"
+        ]
+      },
+      "red": {
+        "role": "tertiary",
+        "displayName": "Redline Red",
+        "canonical": "#c9262a",
+        "tonalRamp": [
+          "#3f0a0c",
+          "#6b1214",
+          "#991b1e",
+          "#c9262a",
+          "#de5457",
+          "#ea8587",
+          "#f3b6b7",
+          "#fbe6e6"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Bond White",
+        "canonical": "#f3f5f4",
+        "tonalRamp": [
+          "#2b302e",
+          "#4a514e",
+          "#6c7470",
+          "#939a97",
+          "#b9bfbc",
+          "#d6dbd9",
+          "#e9edeb",
+          "#f3f5f4"
+        ]
+      },
+      "paper-2": {
+        "role": "neutral",
+        "displayName": "Grey Bond",
+        "canonical": "#e9edeb",
+        "tonalRamp": [
+          "#2b302e",
+          "#4a514e",
+          "#6c7470",
+          "#939a97",
+          "#b9bfbc",
+          "#d6dbd9",
+          "#e9edeb",
+          "#f6f8f7"
+        ]
+      },
+      "mat": {
+        "role": "neutral",
+        "displayName": "Cutting Mat Green",
+        "canonical": "#255a43",
+        "tonalRamp": [
+          "#0d2219",
+          "#163a2b",
+          "#1d4a37",
+          "#255a43",
+          "#3b7a5e",
+          "#5f9b7f",
+          "#97c3ad",
+          "#d6ecce"
+        ]
+      },
+      "mat-deep": {
+        "role": "neutral",
+        "displayName": "Mat Shadow Green",
+        "canonical": "#1d4a37",
+        "tonalRamp": [
+          "#0a1c14",
+          "#123024",
+          "#1d4a37",
+          "#255a43",
+          "#3b7a5e",
+          "#5f9b7f",
+          "#97c3ad",
+          "#d6ecce"
+        ]
+      },
+      "mat-line": {
+        "role": "neutral",
+        "displayName": "Mat Grid Minor",
+        "canonical": "rgba(214, 236, 206, 0.12)",
+        "tonalRamp": [
+          "#2f6249",
+          "#3a6d53",
+          "#4b7b61",
+          "#628d74",
+          "#7ea38b",
+          "#9fbca6",
+          "#c0d6c3",
+          "#d6ecce"
+        ]
+      },
+      "mat-line-5": {
+        "role": "neutral",
+        "displayName": "Mat Grid Major",
+        "canonical": "rgba(214, 236, 206, 0.24)",
+        "tonalRamp": [
+          "#3a6d53",
+          "#4b7b61",
+          "#628d74",
+          "#7ea38b",
+          "#9fbca6",
+          "#b5ccb6",
+          "#c8dcc4",
+          "#d6ecce"
+        ]
+      },
+      "mat-ink": {
+        "role": "neutral",
+        "displayName": "Mat Lettering",
+        "canonical": "#e3eee6",
+        "tonalRamp": [
+          "#2c3a31",
+          "#4a5d50",
+          "#6c8173",
+          "#93a69a",
+          "#b7c7bc",
+          "#d1ded5",
+          "#e3eee6",
+          "#f3f8f4"
+        ]
+      },
+      "tape": {
+        "role": "neutral",
+        "displayName": "Drafting Tape",
+        "canonical": "rgba(232, 222, 186, 0.8)",
+        "tonalRamp": [
+          "#3d3622",
+          "#6a5f3d",
+          "#968a5f",
+          "#bfb286",
+          "#d8cca2",
+          "#e8deba",
+          "#f1ead2",
+          "#f9f6ea"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Author's name on sheet 00 only."
+      },
+      "headline": {
+        "displayName": "Sheet Title",
+        "purpose": "One per sheet, over the sheet head rule."
+      },
+      "title": {
+        "displayName": "Role Line",
+        "purpose": "Role line under the name on the cover."
+      },
+      "subtitle": {
+        "displayName": "Sheet Subtitle",
+        "purpose": "Line beside each sheet title."
+      },
+      "index-name": {
+        "displayName": "Index Name",
+        "purpose": "Project names in the cover sheet index."
+      },
+      "value": {
+        "displayName": "Value",
+        "purpose": "Title block values, table identifiers, link rows (15 to 20px)."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Title block field labels, table headers, zone markers, in faded ink."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "Paragraph under each sheet title, max 62ch."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text with tabular numerals, max 60ch."
+      },
+      "note": {
+        "displayName": "Note",
+        "purpose": "Numbered notes, table cells, captions."
+      },
+      "code": {
+        "displayName": "Code",
+        "purpose": "Code listings on the course sheet only."
+      },
+      "contact": {
+        "displayName": "Contact Address",
+        "purpose": "The email address in the closing contact block, clamp(22px, 3.1vw, 44px)."
+      },
+      "sheet-number": {
+        "displayName": "Sheet Number",
+        "purpose": "Sheet number in the cover title block and the 404 sheet (48px)."
+      },
+      "sheet-number-compact": {
+        "displayName": "Compact Sheet Number",
+        "purpose": "Sheet number in project title blocks on phones (32px); 40px on wider screens."
+      },
+      "action": {
+        "displayName": "Action",
+        "purpose": "Ink-filled primary action cell (Escribir un correo / Send an email), 20px."
+      },
+      "value-lg": {
+        "displayName": "Large Value",
+        "purpose": "Author name in the cover title block, 19px."
+      }
+    },
+    "shadows": [
+      {
+        "name": "sheet-on-mat",
+        "value": "0 1px 1px rgba(0, 0, 0, 0.18), 0 16px 32px -14px rgba(0, 0, 0, 0.5)",
+        "purpose": "Every sheet lying on the mat; nothing on the paper casts a shadow. Removed in print."
+      }
+    ],
+    "focus": [
+      {
+        "name": "focus-dashed-ink",
+        "value": "outline: 2px dashed var(--ink); outline-offset: 3px",
+        "purpose": "All links, buttons and focusable items; outline-color var(--paper) on the mat rail. BOM balloons thicken their stroke to 2.4 instead."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "The only easing curve."
+      },
+      {
+        "name": "plotter-draw-in",
+        "value": "stroke-dashoffset 1.1s var(--ease), delay min(n * 0.025s, 0.9s)",
+        "purpose": "Marked drawing strokes draw in once when a sheet first enters 85% of the viewport."
+      },
+      {
+        "name": "highlighter-swipe",
+        "value": "background-size 0% to 100% over 0.7s var(--ease), 0.5s delay",
+        "purpose": "Highlighter band grows left to right on verified figures, once per sheet."
+      },
+      {
+        "name": "underlay",
+        "value": "opacity 0.6s var(--ease) to 0.5",
+        "purpose": "Drawings on non-current sheets, viewports wider than 860px."
+      },
+      {
+        "name": "state",
+        "value": "background-color, color 0.2s to 0.25s var(--ease)",
+        "purpose": "Hover and pressed states."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "all static",
+        "purpose": "Strokes drawn, bands laid, no dimming, no smooth scroll."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "1280px",
+        "purpose": "Narrower index columns and title block (292px)."
+      },
+      {
+        "name": "stack",
+        "value": "1100px",
+        "purpose": "Title block under main field; sheets single column; quick-contact row appears."
+      },
+      {
+        "name": "compact",
+        "value": "860px",
+        "purpose": "10px gaps, rail as bottom bar, zone markers and tape hidden, drawings pan horizontally."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Ink-filled square cell for the main action.",
+      "html": "<a class=\"ds-btn ds-btn-solid\" href=\"#\">Escribir un correo <svg width=\"14\" height=\"14\" viewBox=\"0 0 14 14\" aria-hidden=\"true\"><path d=\"M1.5 7h10M7.5 3l4 4-4 4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/></svg></a>",
+      "css": ":host{--ink:#2b2f8f;--ink-2:#4f539e;--paper:#f3f5f4;--rule:rgba(43,47,143,.32);--hi:#ffe14d;--hi-a:rgba(255,225,77,.9);--red:#c9262a;--mat:#255a43;--mat-deep:#1d4a37;--mat-ink:#e3eee6;--letter:\"Osifont\",\"Archivo\",system-ui,sans-serif;--text:\"Archivo\",system-ui,sans-serif;--ease:cubic-bezier(0.16,1,0.3,1)} .ds-btn{display:inline-flex;align-items:center;gap:8px;font-family:var(--letter);font-size:16px;line-height:1;padding:11px 14px;min-height:44px;border:1.5px solid var(--ink);background:var(--paper);color:var(--ink);text-decoration:none;cursor:pointer;border-radius:0;transition:background-color .2s var(--ease),color .2s var(--ease)} .ds-btn-solid{background:var(--ink);color:var(--paper)} .ds-btn-solid:hover{background:#1f2270} .ds-btn:focus-visible{outline:2px dashed var(--ink);outline-offset:3px}"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Paper cell with ink border; fills with ink on hover.",
+      "html": "<button class=\"ds-btn-o\" type=\"button\">Copiar correo</button>",
+      "css": ":host{--ink:#2b2f8f;--ink-2:#4f539e;--paper:#f3f5f4;--rule:rgba(43,47,143,.32);--hi:#ffe14d;--hi-a:rgba(255,225,77,.9);--red:#c9262a;--mat:#255a43;--mat-deep:#1d4a37;--mat-ink:#e3eee6;--letter:\"Osifont\",\"Archivo\",system-ui,sans-serif;--text:\"Archivo\",system-ui,sans-serif;--ease:cubic-bezier(0.16,1,0.3,1)} .ds-btn-o{display:inline-flex;align-items:center;gap:8px;font-family:var(--letter);font-size:16px;line-height:1;padding:11px 14px;min-height:44px;border:1.5px solid var(--ink);background:var(--paper);color:var(--ink);border-radius:0;cursor:pointer;transition:background-color .2s var(--ease),color .2s var(--ease)} .ds-btn-o:hover{background:var(--ink);color:var(--paper)} .ds-btn-o:focus-visible{outline:2px dashed var(--ink);outline-offset:3px} .ds-btn-o[data-state=done]{background:var(--hi);color:var(--ink)}"
+    },
+    {
+      "name": "Title Block Cell",
+      "kind": "card",
+      "refersTo": "title-block-cell",
+      "description": "ISO 7200 cell: faded-ink label over an Osifont value, ruled in ink.",
+      "html": "<div class=\"ds-tb\"><div class=\"ds-cell\"><span class=\"ds-label\">ESTADO</span><span class=\"ds-v\">Emitido para revisión</span></div><div class=\"ds-cell ds-no\"><span class=\"ds-label\">HOJA</span><span class=\"ds-n\">00</span></div></div>",
+      "css": ":host{--ink:#2b2f8f;--ink-2:#4f539e;--paper:#f3f5f4;--rule:rgba(43,47,143,.32);--hi:#ffe14d;--hi-a:rgba(255,225,77,.9);--red:#c9262a;--mat:#255a43;--mat-deep:#1d4a37;--mat-ink:#e3eee6;--letter:\"Osifont\",\"Archivo\",system-ui,sans-serif;--text:\"Archivo\",system-ui,sans-serif;--ease:cubic-bezier(0.16,1,0.3,1)} .ds-tb{display:grid;grid-template-columns:1fr 86px;border:2px solid var(--ink);background:var(--paper);color:var(--ink);max-width:360px} .ds-cell{padding:6px 10px 8px;border-right:1px solid var(--ink)} .ds-no{border-right:0;display:flex;flex-direction:column;align-items:center;justify-content:center} .ds-label{display:block;font-family:var(--letter);font-size:12px;line-height:1.3;color:var(--ink-2);letter-spacing:.02em;margin-bottom:2px} .ds-v{font-family:var(--letter);font-size:16px;line-height:1.3} .ds-n{font-family:var(--letter);font-size:40px;line-height:.95}"
+    },
+    {
+      "name": "Sheet Rail",
+      "kind": "nav",
+      "refersTo": "sheet-rail-item",
+      "description": "Square sheet numbers on the mat; current sheet is a paper cell.",
+      "html": "<nav class=\"ds-rail\"><a href=\"#\" aria-current=\"true\">00</a><a href=\"#\">01</a><a href=\"#\">02</a><hr><a href=\"#\" aria-pressed=\"true\">ES</a><a href=\"#\">EN</a></nav>",
+      "css": ":host{--ink:#2b2f8f;--ink-2:#4f539e;--paper:#f3f5f4;--rule:rgba(43,47,143,.32);--hi:#ffe14d;--hi-a:rgba(255,225,77,.9);--red:#c9262a;--mat:#255a43;--mat-deep:#1d4a37;--mat-ink:#e3eee6;--letter:\"Osifont\",\"Archivo\",system-ui,sans-serif;--text:\"Archivo\",system-ui,sans-serif;--ease:cubic-bezier(0.16,1,0.3,1)} .ds-rail{display:flex;flex-direction:column;gap:6px;width:40px;padding:10px;background:var(--mat);font-family:var(--letter);box-sizing:content-box} .ds-rail a{height:34px;display:grid;place-items:center;color:var(--mat-ink);font-size:15px;text-decoration:none;border:1px solid rgba(227,238,230,.35);transition:background-color .25s var(--ease),color .25s var(--ease)} .ds-rail a:hover{background:rgba(243,245,244,.14)} .ds-rail a[aria-current=true],.ds-rail a[aria-pressed=true]{background:var(--paper);color:var(--ink);border-color:var(--paper)} .ds-rail a:focus-visible{outline:2px dashed var(--paper);outline-offset:3px} .ds-rail hr{width:100%;border:0;border-top:1px solid rgba(227,238,230,.35);margin:6px 0}"
+    },
+    {
+      "name": "Language Switch",
+      "kind": "chip",
+      "refersTo": "lang-switch-active",
+      "description": "Two-cell ES/EN switch in the title block; active language ink-filled.",
+      "html": "<div class=\"ds-lang\" role=\"group\"><a href=\"#\" aria-pressed=\"true\">ES</a><a href=\"#\" aria-pressed=\"false\">EN</a></div>",
+      "css": ":host{--ink:#2b2f8f;--ink-2:#4f539e;--paper:#f3f5f4;--rule:rgba(43,47,143,.32);--hi:#ffe14d;--hi-a:rgba(255,225,77,.9);--red:#c9262a;--mat:#255a43;--mat-deep:#1d4a37;--mat-ink:#e3eee6;--letter:\"Osifont\",\"Archivo\",system-ui,sans-serif;--text:\"Archivo\",system-ui,sans-serif;--ease:cubic-bezier(0.16,1,0.3,1)} .ds-lang{display:grid;grid-template-columns:1fr 1fr;border:1.5px solid var(--ink);max-width:240px;background:var(--paper)} .ds-lang a{font-family:var(--letter);font-size:17px;text-align:center;padding:7px 0;color:var(--ink);text-decoration:none;transition:background-color .25s var(--ease),color .25s var(--ease)} .ds-lang a:hover{background:rgba(43,47,143,.08)} .ds-lang a[aria-pressed=true]{background:var(--ink);color:var(--paper)} .ds-lang a:focus-visible{outline:2px dashed var(--ink);outline-offset:3px}"
+    },
+    {
+      "name": "Sheet Index Row",
+      "kind": "custom",
+      "refersTo": "detail-bubble",
+      "description": "Cover index row: detail bubble, name and one-liner, dimension drawing, status.",
+      "html": "<a class=\"ds-row\" href=\"#\"><span class=\"ds-bubble\"><i>1</i>01</span><span><span class=\"ds-name\">Nous</span><span class=\"ds-desc\">Plataforma de exámenes supervisados.</span></span><svg viewBox=\"0 0 320 44\" width=\"240\"><line x1=\"0\" y1=\"11\" x2=\"300\" y2=\"11\" stroke=\"#c9262a\" stroke-width=\"1.2\"/><text x=\"150\" y=\"7\" text-anchor=\"middle\" fill=\"#c9262a\" font-family=\"Osifont\" font-size=\"13\">5.8 s</text><line x1=\"0\" y1=\"32\" x2=\"44\" y2=\"32\" stroke=\"#2b2f8f\" stroke-width=\"1.2\"/><rect x=\"52\" y=\"23\" width=\"48\" height=\"17\" fill=\"rgba(255,225,77,.9)\"/><text x=\"55\" y=\"37\" fill=\"#2b2f8f\" font-family=\"Osifont\" font-size=\"16\">0.86 s</text></svg><span class=\"ds-status\">EN PRODUCCIÓN<small>nous.aegisystem.xyz</small></span></a>",
+      "css": ":host{--ink:#2b2f8f;--ink-2:#4f539e;--paper:#f3f5f4;--rule:rgba(43,47,143,.32);--hi:#ffe14d;--hi-a:rgba(255,225,77,.9);--red:#c9262a;--mat:#255a43;--mat-deep:#1d4a37;--mat-ink:#e3eee6;--letter:\"Osifont\",\"Archivo\",system-ui,sans-serif;--text:\"Archivo\",system-ui,sans-serif;--ease:cubic-bezier(0.16,1,0.3,1)} .ds-row{display:grid;grid-template-columns:64px minmax(0,1fr) 260px 160px;align-items:center;min-height:76px;padding:6px 0;border-bottom:1px solid var(--rule);background:var(--paper);color:var(--ink);text-decoration:none;transition:background-color .25s var(--ease)} .ds-row:hover{background:rgba(43,47,143,.045)} .ds-row:focus-visible{outline:2px dashed var(--ink);outline-offset:3px} .ds-bubble{width:42px;height:42px;border:1.5px solid var(--ink);border-radius:50%;display:grid;grid-template-rows:1fr 1fr;font-family:var(--letter);font-size:15px;line-height:20px;text-align:center;overflow:hidden;transition:background-color .25s var(--ease),color .25s var(--ease)} .ds-bubble i{font-style:normal;border-bottom:1.5px solid var(--ink)} .ds-row:hover .ds-bubble{background:var(--ink);color:var(--paper)} .ds-row:hover .ds-bubble i{border-color:var(--paper)} .ds-name{display:block;font-family:var(--letter);font-size:27px;line-height:1} .ds-desc{display:block;font-family:var(--text);font-size:14px;line-height:1.3;color:var(--ink-2);margin-top:4px} .ds-status{font-family:var(--letter);font-size:14px;line-height:1.25;border-left:1px solid var(--rule);padding-left:12px;align-self:stretch;display:flex;flex-direction:column;justify-content:center} .ds-status small{display:block;font-family:var(--text);font-size:12.5px;color:var(--ink-2);margin-top:3px}"
+    },
+    {
+      "name": "Parts List (BOM)",
+      "kind": "custom",
+      "description": "Parts list table; a hovered balloon highlights its row with the highlighter.",
+      "html": "<table class=\"ds-bom\"><thead><tr><th>N.º</th><th>Pieza</th><th>Detalle</th></tr></thead><tbody><tr><td>1</td><td>Next.js</td><td>App y API en un solo despliegue.</td></tr><tr class=\"is-hl\"><td>2</td><td>PostgreSQL</td><td>Escrituras agrupadas: 26 viajes a 5.</td></tr><tr><td>3</td><td>WebSockets</td><td>Supervisión en tiempo real.</td></tr></tbody></table>",
+      "css": ":host{--ink:#2b2f8f;--ink-2:#4f539e;--paper:#f3f5f4;--rule:rgba(43,47,143,.32);--hi:#ffe14d;--hi-a:rgba(255,225,77,.9);--red:#c9262a;--mat:#255a43;--mat-deep:#1d4a37;--mat-ink:#e3eee6;--letter:\"Osifont\",\"Archivo\",system-ui,sans-serif;--text:\"Archivo\",system-ui,sans-serif;--ease:cubic-bezier(0.16,1,0.3,1)} .ds-bom{width:100%;border-collapse:collapse;font-family:var(--text);font-size:14px;color:var(--ink);background:var(--paper)} .ds-bom th{font-family:var(--letter);font-weight:400;font-size:12.5px;color:var(--ink-2);text-align:left;padding:6px 6px 4px 0;border-bottom:1px solid var(--ink)} .ds-bom td{padding:6px 6px 6px 0;border-bottom:1px solid var(--rule);vertical-align:top;line-height:1.35;transition:background-color .2s var(--ease)} .ds-bom td:first-child{font-family:var(--letter);font-size:15px;width:30px;text-align:center;padding-right:0} .ds-bom td:nth-child(2){font-family:var(--letter);font-size:15px;width:42%} .ds-bom tr:hover td,.ds-bom tr.is-hl td{background:var(--hi-a)}"
+    },
+    {
+      "name": "Revision Cloud",
+      "kind": "custom",
+      "description": "Red-outlined revision note with delta mark (the build draws a scalloped cloud around it in JS).",
+      "html": "<div class=\"ds-rev\"><svg class=\"ds-delta\" viewBox=\"0 0 26 24\" aria-hidden=\"true\"><path d=\"M13 2 24 22H2Z\" fill=\"none\" stroke=\"#c9262a\" stroke-width=\"1.5\"/><text x=\"13\" y=\"19\" text-anchor=\"middle\" font-size=\"11\" fill=\"#c9262a\" font-family=\"Osifont\">B</text></svg><b>Rev. B</b>Dominio planeado; aún sin desplegar.</div>",
+      "css": ":host{--ink:#2b2f8f;--ink-2:#4f539e;--paper:#f3f5f4;--rule:rgba(43,47,143,.32);--hi:#ffe14d;--hi-a:rgba(255,225,77,.9);--red:#c9262a;--mat:#255a43;--mat-deep:#1d4a37;--mat-ink:#e3eee6;--letter:\"Osifont\",\"Archivo\",system-ui,sans-serif;--text:\"Archivo\",system-ui,sans-serif;--ease:cubic-bezier(0.16,1,0.3,1)} .ds-rev{position:relative;border:1.5px solid var(--red);margin:8px;padding:14px 16px 14px 52px;color:var(--red);font-family:var(--text);font-size:14px;line-height:1.4;background:var(--paper)} .ds-rev b{font-family:var(--letter);font-weight:400;font-size:15px;display:block} .ds-delta{position:absolute;left:14px;top:14px;width:26px;height:24px}"
+    },
+    {
+      "name": "Verified Figure",
+      "kind": "custom",
+      "description": "Superseded value in redline, verified value under the highlighter band.",
+      "html": "<p class=\"ds-p\">Guardar las notas pasó de <span class=\"ds-was\">5.8 s</span> a <span class=\"ds-hl\">0.86 s</span>.</p>",
+      "css": ":host{--ink:#2b2f8f;--ink-2:#4f539e;--paper:#f3f5f4;--rule:rgba(43,47,143,.32);--hi:#ffe14d;--hi-a:rgba(255,225,77,.9);--red:#c9262a;--mat:#255a43;--mat-deep:#1d4a37;--mat-ink:#e3eee6;--letter:\"Osifont\",\"Archivo\",system-ui,sans-serif;--text:\"Archivo\",system-ui,sans-serif;--ease:cubic-bezier(0.16,1,0.3,1)} .ds-p{font-family:var(--text);font-size:16px;line-height:1.5;color:var(--ink);font-variant-numeric:tabular-nums} .ds-was{color:var(--red);text-decoration:line-through;text-decoration-thickness:1px} .ds-hl{background-image:linear-gradient(transparent 14%,var(--hi-a) 14%,var(--hi-a) 88%,transparent 88%);background-repeat:no-repeat;background-size:100% 100%;padding:0 3px;margin:0 -3px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Drawing Set",
+    "overview": "The portfolio is a set of engineering drawings laid on a green self-healing cutting mat. Each project is a sheet: a bond-white page with an ISO 5457 frame, zone markers along its edges, a title block, and drawings dimensioned with measured numbers. Everything on the paper is drawn in one diazo blue-violet ink. Two marks may interrupt that ink: the checker's yellow highlighter, laid over figures that have been verified, and the redline red that strikes superseded values and draws revision clouds.\n\nThe density is that of a real drawing sheet: thick frame lines, thin cell rules, tables (parts lists, revision tables, schedules) set close and read by eye. Lettering is ISO 3098 technical lettering (Osifont) at a single weight. Running notes are in Archivo. Hierarchy comes from size, rule weight and position in the sheet, never from bold. Paper sits flat on the mat with a single physical shadow. Nothing floats, glows or rounds off, except the detail bubble, which is a circle because that is what a detail callout is.\n\nMotion belongs to the instruments. A pen plotter draws each sheet's linework once when the sheet arrives. A highlighter swipes across the verified figure from left to right. Non-current sheets keep their drawings and title block at underlay strength; the sheet you arrive at inks to full. Under reduced motion all of it is static and fully inked.",
+    "keyCharacteristics": [
+      "Bond-white sheets on a green cutting mat with its printed grid; one sheet per subject, numbered 00 to 06.",
+      "A single ink color for every line and letter on the paper; yellow and red are marks with fixed meanings, not accents.",
+      "ISO 3098 lettering for titles, labels, title blocks and dimensions; Archivo for prose.",
+      "Drawing-set apparatus as the component vocabulary: frames, zone markers, title blocks, detail bubbles, BOM balloons, revision tables, revision clouds, hatching.",
+      "Square corners everywhere except the circular bubble and balloon.",
+      "Motion limited to plotter draw-in and highlighter swipe, once each."
+    ],
+    "rules": [
+      {
+        "name": "The One Ink Rule",
+        "body": "Everything on the paper is drawn in the ink or its faded strength. A new element gets the ink, not a new color.",
+        "section": "colors"
+      },
+      {
+        "name": "The Checked Mark Rule",
+        "body": "Yellow means \"this has been checked or confirmed\". It never decorates a heading, a label or an unverified claim.",
+        "section": "colors"
+      },
+      {
+        "name": "The Redline Rule",
+        "body": "Red means \"superseded\" or \"revised\". A value in red is always paired with the value that replaced it.",
+        "section": "colors"
+      },
+      {
+        "name": "The Single Weight Rule",
+        "body": "Osifont is set at 400 only. Hierarchy comes from size, ink strength and rule weight; nothing on the sheet is bold except keywords in code listings.",
+        "section": "typography"
+      },
+      {
+        "name": "The Lettering Rule",
+        "body": "Anything a draftsman would letter (titles, labels, numbers, dimensions, table keys, buttons) is Osifont. Anything a writer would write (sentences) is Archivo.",
+        "section": "typography"
+      },
+      {
+        "name": "The Paper Lies Flat Rule",
+        "body": "Only sheets cast a shadow, and only onto the mat. Elements on the paper never get shadows, glows or lifts; emphasis is ink, rule weight or the highlighter.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** draw every line and letter on paper in the ink (#2b2f8f) or faded ink (#4f539e).",
+      "**Do** letter titles, labels, figures, table keys and buttons in Osifont at weight 400; set sentences in Archivo.",
+      "**Do** state measured proof as a dimension drawing, with the superseded value in red and the current one under the highlighter.",
+      "**Do** put actions and metadata into title block cells: a faded-ink label over an Osifont value, separated by 1px ink rules.",
+      "**Do** keep corners square; use circles only for detail bubbles and BOM balloons.",
+      "**Do** use hatching (45-degree lines) for sectioned or inactive areas, and hard-stop bands for the highlighter.",
+      "**Do** keep motion to the plotter draw-in and the highlighter swipe, each once, and make both static under reduced motion.",
+      "**Do** use a 2px dashed ink focus outline at 3px offset, paper-colored where the control sits on the mat.",
+      "**Do** write every piece of content in both languages as paired `lang` elements in the same layout."
+    ],
+    "donts": [
+      "**Don't** use cards, pills, rounded containers or tag chips; content sits in frames, cells and table rows.",
+      "**Don't** use smooth color gradients or glows; the only gradients allowed are hard-stop drawing devices (the highlighter band, hatching).",
+      "**Don't** add shadows to anything on the paper; only sheets cast a shadow onto the mat.",
+      "**Don't** use yellow on headings, labels or unverified figures, or red for anything but superseded values and revision clouds.",
+      "**Don't** introduce a second ink color, a bold lettering weight, or a dark hero section.",
+      "**Don't** use tech logo tiles or icon grids; the only icons are single-stroke line glyphs (external, download, arrow) at 14px."
+    ]
+  }
+}

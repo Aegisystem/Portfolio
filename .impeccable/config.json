@@ -1,0 +1,35 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "repeating-stripes-gradient",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-05T04:55:19.158Z",
+        "reason": "agent: diagonal hatching marks rest days in the shift schedule; hatching is the drawing-set convention for sections in the chosen Juego de planos world"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-05T04:55:19.178Z",
+        "reason": "agent: index status cell has 12px padding beside its rule on desktop and no rule on mobile (verified computed styles at 1440 and 390); frame children meet the frame border by drawing convention"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/**"
+        ],
+        "createdAt": "2026-11-05T05:09:26.453Z",
+        "reason": "agent: decision-round sketches (gitignored, never shipped) alias osifont as 'Osi'; the shipped site uses the documented 'Osifont' family"
+      }
+    ]
+  }
+}
