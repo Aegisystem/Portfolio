@@ -113,7 +113,7 @@
               <text class="t-l" x="150" y="15" text-anchor="middle"><tspan lang="es">291 commits · 26 oct – 5 nov</tspan><tspan lang="en">291 commits · Oct 26 – Nov 5</tspan></text>
               <text class="t-s" x="0" y="42"><tspan lang="es">12 ADR · 14 hallazgos de seguridad cerrados</tspan><tspan lang="en">12 ADRs · 14 security findings closed</tspan></text>
             </svg>
-            <span class="status"><span lang="es">PRELIMINAR</span><span lang="en">PRELIMINARY</span><small><span lang="es">Código público · listo para Railway</span><span lang="en">Public code · ready for Railway</span></small></span>
+            <span class="status"><span lang="es">EN PRODUCCIÓN</span><span lang="en">IN PRODUCTION</span><small>quitsie.aegisystem.xyz</small></span>
           </a></li>
           <li><a class="index-row" href="#h03">
             <span class="bubble" aria-hidden="true"><i>1</i>03</span>
@@ -412,9 +412,9 @@
         </figure>
         <div class="revcloud" role="note">
           <svg class="delta" aria-hidden="true"><use href="#i-delta"/></svg>
-          <b><span lang="es">Preliminar · no desplegado</span><span lang="en">Preliminary · not deployed</span></b>
-          <span lang="es">El código está completo, pasa la CI y está listo para Railway, pero aún no corre en producción: falta crear el proyecto, el dominio y las variables.</span>
-          <span lang="en">The code is complete, passes CI and is ready for Railway, but it is not running in production yet: the project, domain and variables still have to be set up.</span>
+          <b><span lang="es">Revisión 1 · 5 nov 2026</span><span lang="en">Revision 1 · Nov 5, 2026</span></b>
+          <span lang="es">La base pasó de <span class="was">SQLite en una VM propia</span> a PostgreSQL en Railway (ADR 0012). Desaparecieron el túnel, Litestream y el despliegue por SSH: Railway despliega cada push que pasa la CI.</span>
+          <span lang="en">The database moved from <span class="was">SQLite on a self-run VM</span> to PostgreSQL on Railway (ADR 0012). The tunnel, Litestream and SSH deploys are gone: Railway deploys every push that passes CI.</span>
         </div>
 
         <figure class="view">
@@ -462,14 +462,14 @@
           <h3 class="block-title"><span><span lang="es">NOTAS</span><span lang="en">NOTES</span></span></h3>
           <ol class="notes" lang="es">
             <li><span><span class="hl">291 commits</span> entre el 26 de octubre y el 5 de noviembre de 2026.</span></li>
-            <li><span>12 decisiones de arquitectura (ADR) escritas y un glosario del dominio. La 12 pasó la base de <span class="was">SQLite</span> a PostgreSQL y el despliegue de una VM propia a Railway.</span></li>
+            <li><span>12 decisiones de arquitectura (ADR) escritas y un glosario del dominio. La 12 es la revisión 1.</span></li>
             <li><span>Las lecturas de la sincronización corren en <code>REPEATABLE READ</code>, para que el cursor no se salte cambios.</span></li>
             <li><span>Una revisión de seguridad encontró 14 hallazgos; <span class="hl">los 14 están cerrados</span>.</span></li>
             <li><span>Pruebas en Go contra PostgreSQL (cada prueba crea su propia base), del dominio en TypeScript y de punta a punta con Playwright contra el binario real.</span></li>
           </ol>
           <ol class="notes" lang="en">
             <li><span><span class="hl">291 commits</span> between October 26 and November 5, 2026.</span></li>
-            <li><span>12 written architecture decision records (ADRs) and a domain glossary. Number 12 moved the database from <span class="was">SQLite</span> to PostgreSQL and deployment from a self-run VM to Railway.</span></li>
+            <li><span>12 written architecture decision records (ADRs) and a domain glossary. Number 12 is revision 1.</span></li>
             <li><span>Sync reads run in <code>REPEATABLE READ</code> so the cursor never skips changes.</span></li>
             <li><span>A security review found 14 issues; <span class="hl">all 14 are closed</span>.</span></li>
             <li><span>Go tests against PostgreSQL (each test creates its own database), TypeScript domain tests and end-to-end Playwright tests against the real binary.</span></li>
@@ -478,10 +478,10 @@
         <div class="tbh">
           <div class="wide"><span class="cell-label"><span lang="es">TÍTULO</span><span lang="en">TITLE</span></span><span class="v">Quitsie</span></div>
           <div class="no"><span class="cell-label"><span lang="es">HOJA</span><span lang="en">SHEET</span></span><span class="v lettering">02</span><span class="cell-label"><span lang="es">de 06</span><span lang="en">of 06</span></span></div>
-          <div><span class="cell-label"><span lang="es">ESTADO</span><span lang="en">STATUS</span></span><span class="v status-v"><span lang="es">Preliminar</span><span lang="en">Preliminary</span></span></div>
+          <div><span class="cell-label"><span lang="es">ESTADO</span><span lang="en">STATUS</span></span><span class="v status-v"><span lang="es">En producción</span><span lang="en">In production</span></span></div>
           <div><span class="cell-label"><span lang="es">FECHAS</span><span lang="en">DATES</span></span><span class="v"><span lang="es">Oct – nov 2026</span><span lang="en">Oct – Nov 2026</span></span></div>
           <div><span class="cell-label"><span lang="es">ROL</span><span lang="en">ROLE</span></span><span class="v"><span lang="es">Único desarrollador</span><span lang="en">Sole developer</span></span></div>
-          <div class="full last"><span class="cell-label"><span lang="es">CÓDIGO</span><span lang="en">CODE</span></span><span class="v"><a href="https://github.com/Aegisystem/Quitsie" rel="noopener" target="_blank">github.com/Aegisystem/Quitsie</a></span></div>
+          <div class="full last"><span class="cell-label"><span lang="es">ENLACES</span><span lang="en">LINKS</span></span><span class="v"><a href="https://quitsie.aegisystem.xyz" rel="noopener" target="_blank">quitsie.aegisystem.xyz</a> · <a href="https://github.com/Aegisystem/Quitsie" rel="noopener" target="_blank"><span lang="es">código</span><span lang="en">code</span></a></span></div>
         </div>
       </div>
     </div>
