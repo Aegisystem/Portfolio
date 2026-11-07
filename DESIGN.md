@@ -290,7 +290,7 @@ The ISO 7200 title block is the sheet's control panel.
 - **Language switch:** a two-cell grid in a 1.5px ink border; the active language is ink-filled.
 
 ### Tables
-Parts lists (BOM), revision tables, the cover revisions list, the shift schedule and the skills list share one grammar: faded-ink Osifont headers over a 1px ink rule, rows separated by 1px cell rules, identifiers (item number, revision letter, date) in Osifont, descriptions in Archivo. Block titles above them sit on a 2px ink rule with a faded-ink count at the right.
+Parts lists (BOM), revision tables, the cover revisions list, the shift schedule and the skills list share one grammar: faded-ink Osifont headers over a 1px ink rule, rows separated by 1px cell rules, identifiers (item number, revision letter, date) in Osifont, descriptions in Archivo. Block titles above them sit on a 2px ink rule with a faded-ink count at the right. On screen the parts list is titled "Tecnologías / Tech stack" with a "Componente / Component" column, and the skills list "Lenguajes y herramientas / Languages and tools"; "bill of materials" stays an internal name and is never shown to visitors.
 
 ### Navigation
 - **Sheet rail:** fixed column of square sheet numbers (00 to 06) on the mat, Osifont 15px in mat lettering with 35%-opacity borders; hover adds a 14% paper wash; the current sheet is a paper cell with ink lettering. A rule separates the language pair, whose active item is styled the same way. Below 860px it becomes a full-width bottom bar on the deep mat with 44px targets.

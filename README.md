@@ -59,7 +59,7 @@ Para usar, por ejemplo, `portafolio.aegisystem.xyz`, como en `algo.aegisystem.xy
 
 - `index.html`: las 7 hojas, con el texto en español y en inglés (`lang="es"` / `lang="en"`).
 - `assets/css/planos.css`: estilos y tokens del mundo visual.
-- `assets/js/planos.js`: idioma, marcas de zona, hoja actual, trazado de líneas tipo plotter y globos de la lista de materiales.
+- `assets/js/planos.js`: idioma, marcas de zona, hoja actual, trazado de líneas tipo plotter y globos de la tabla de tecnologías.
 - `assets/mat.svg`: tapete de corte del fondo, dibujado a mano en SVG.
 - `assets/fonts/`: osifont (letra técnica ISO 3098, LGPL-3.0 con excepción de fuente) y Archivo (OFL).
 - `assets/cv/`: CV en PDF.
